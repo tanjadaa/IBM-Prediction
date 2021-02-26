@@ -3,6 +3,8 @@
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/IBM%20Cloud%20Pak.png)
 
 
+# Data Cleaning Process
+
 Look at your data
 To easily find and fix anomalies in your data, click Refine to open the Data Refinery tool. 
 
@@ -41,7 +43,7 @@ First, look at the distribution of customers across five credit history categori
 
 Select the CREDIT_HISTORY column. 
 
-
+# Visualizing the Data
 Select a bar chart
 The chart types with blue dots next to their names best fit the data. To see the credit history data in a bar chart, click Bar. 
 
@@ -67,5 +69,14 @@ You can see that most customers who miss payments are in the the credit history 
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/category%20E%20highest.png)
 
-By cleanng and visualizing the data we have discovred the relationship between 
+🙌🏻  By cleanng and visualizing the data we have discovred the relationship between missed payments and credit history in the data refinery.
 
+# Prediction
+
+Next I started with AutoAI to automatically generate multiple candidate models. ###### Then I deploy the model on data in real-time, as data was received by a web service.
+
+![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/RM%20full.png)
+
+AutoAI applies various algorithms, or estimator, to analyze,clean and prepare the raw data for Machine Learning. It automatically detects and categorizes features based on data type, such as categorical or numerical. 
+
+Depending on the categorization, it uses hyper-parameter optimization to determine the best combination of strategies for missing value imputation, feature encoding and feature scaling for your data.
