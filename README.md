@@ -1,2 +1,3 @@
 # IBM-Prediction
-![image](https://user-images.githubusercontent.com/57735006/109330245-78c37600-7829-11eb-9dde-bc7fc776fa7e.png)
+
+![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/IBM%20Cloud%20Pak.png)
