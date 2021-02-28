@@ -25,35 +25,25 @@ With the CREDIT_HISTORY column selected, duplicates were handled by replacing th
 Then all instances of "A-Excellent" were replaced with "A". 
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/removed%20duplicates.png)
-
-Select a column to display
-First, look at the distribution of customers across five credit history categories. 
-
-Select the CREDIT_HISTORY column. 
+ 
 
 ## Visualizing the Data
-Select a bar chart
-The chart types with blue dots next to their names best fit the data. To see the credit history data in a bar chart, click Bar. 
 
-Look at the distribution
-This chart shows the number of customers for each credit history category, from A - E. Most customers are in Category A, which represents the best credit history. 
+To visualize the distribution I used a bar chart to show the number of customers for each credit history category from A - E. Most customers are in Category A, which represents the best credit history. 
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/credit%20history%20bar%20chart.png)
 
-Compare credit categories to missed payments
-To show how many customers missed and didn't miss payments for each credit history category, use the Split by function. 
-
-Select MISSED_PAYMENT from the menu. 
+To compare credit categories to missed payments I used the Split by function and selected MISSED_PAYMENT from the menu. This displays how many customers missed and didn't miss payments for each credit history category.
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/split%20by%20missed%20payments.png)
 
-Show only missed payments
+
 Each bar now has two colors: one for how many customers missed payments and one for how many customers didn't miss payments. 
 
-Click Paid to hide the number of customers who paid or didn't miss their payments. Then click next. 
+To show only missed payments, "Paid" was deselected to hide the number of customers who paid or didn't miss their payments.
 
-Look at the distribution
-You can see that most customers who miss payments are in the the credit history category E. 
+
+----We can see by the distribution that most customers who miss payments are in the the credit history category E. 
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/category%20E%20highest.png)
 
