@@ -2,40 +2,27 @@
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/IBM%20Cloud%20Pak.png)
 
+From IBM's Cloud Pak site, I have used a sample dataset to address the following scenario: 
+
 The Utilities Company wants to help their customers avoid missing any payments. The accounts department plans to offer payment plan options to customers who are likely to miss a payment. However, with their existing customer insight tools, the accounts department can identify only 10% of customers who will miss a payment.  Used that data to help predict a higher percentage of customers who are most likely to miss their payments, and how to offer them payment plans.
 
 ## Data Cleaning Process
 
-Look at your data
-To easily find and fix anomalies in your data, click Refine to open the Data Refinery tool. 
+First step was to examine the dataset and to easily find and fix anomalies in the data, I used the "Refine" option to open the "Data Refinery tool"
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/dataset.png)
 
-Data Refinery automatically profiles your data to summarize statistics and characteristics of each column. Your first task is to cleanse a column that has multiple strings that mean the same thing. The profile makes it easy to find that anomaly. 
+Data Refinery automatically profiles the data to summarize statistics and characteristics of each column. The first task was to cleanse any duplicated in the columns. With the "profile" tab, this makes it easy to find any anomalies. 
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/finding%20duplicates.png)
 
-Find a problem
-Look at the values in the CREDIT_HISTORY column. Two of the values, "A-Excellent" and "A" have the same meaning. You'll fix this anomaly in the next steps. 
+Here there are duplicate values in the CREDIT_HISTORY column, "A-Excellent" and "A".
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/replace%20substring.png)
 
+With the CREDIT_HISTORY column selected, duplicates were handled by replacing the substring operation.
 
-View your options
-With the CREDIT_HISTORY column selected, click Operation to see what you can do to that column. 
-
-
-
-Select the Replace substring operation
-To replace the string "A-Excellent" with "A", select the Replace substring operation from the Cleanse category. 
-The string to replace
-The string that you want to replace is "A-Excellent".
-The replacement string
-The replacement string is "A". 
-
-Now all instances of "A-Excellent" should be replaced with "A". To make sure, check the Profile tab. 
-
-There's one consistent string that means "A" in the CREDIT_HISTORY column. 
+Then all instances of "A-Excellent" were replaced with "A". 
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/removed%20duplicates.png)
 
