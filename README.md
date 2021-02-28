@@ -76,8 +76,25 @@ You can see that most customers who miss payments are in the the credit history 
 
 Next I started with AutoAI to automatically generate multiple candidate models. ###### Then I deploy the model on data in real-time, as data was received by a web service.
 
+ABOUT AutoAI - DATA PRE_PROCESSING
+AutoAI applies various algorithms, or estimator, to analyze,clean and prepare the raw data for Machine Learning. It automatically detects and categorizes features based on data type, such as categorical or numerical. Depending on the categorization, it uses hyper-parameter optimization to determine the best combination of strategies for missing value imputation, feature encding and feature scaling for the data.
+![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Relationship%20Map.png)
+
+AUTOMATED MODEL SELECTION
+The next step AutoAI automated model selection that matches the data, AutoAI uses a novel approcah that enables testing and ranking candidate algorithms against small subsets of the data, graudally increasing the size of the subset for the most promising algorithms to arrive at the best match. This approach saves time without sacrifising performance. IT enables ranking a large number of candidate algorithms and selecting the best match for the data.
+
+Through our Progress Map, we are able to see the stages of the data and after Model Selection, our data is being split into 2 different Classifiers, XGB Classifier and LGBM Classifier. 
+
+👉🏻 The XGB Classifier, XBGBoost, is an optimized gradient boosting machine learning library. It boosts algorithms through parallel processing, tree-pruning, handling missing values and regularization to avoid overfitting/bias.
+
+👉🏻 The LGBM Classifier, also called LightGBM is a fast, gradient boosting framework that uses tree based learning algorithms. 
+
+![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/progress%20map.png)
+
+
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/RM%20full.png)
 
-AutoAI applies various algorithms, or estimator, to analyze,clean and prepare the raw data for Machine Learning. It automatically detects and categorizes features based on data type, such as categorical or numerical. 
 
-Depending on the categorization, it uses hyper-parameter optimization to determine the best combination of strategies for missing value imputation, feature encoding and feature scaling for your data.
+
+
+
