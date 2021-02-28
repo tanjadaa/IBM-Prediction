@@ -1,7 +1,8 @@
-# IBM-Prediction
+# IBM Payment Plan Prediction
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/IBM%20Cloud%20Pak.png)
 
+The Utilities Company wants to help their customers avoid missing any payments. The accounts department plans to offer payment plan options to customers who are likely to miss a payment. However, with their existing customer insight tools, the accounts department can identify only 10% of customers who will miss a payment.  Used that data to help predict a higher percentage of customers who are most likely to miss their payments, and how to offer them payment plans.
 
 # Data Cleaning Process
 
