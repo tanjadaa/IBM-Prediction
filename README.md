@@ -43,11 +43,11 @@ Each bar now has two colors: one for how many customers missed payments and one 
 To show only missed payments, "Paid" was deselected to hide the number of customers who paid or didn't miss their payments.
 
 
-----We can see by the distribution that most customers who miss payments are in the the credit history category E. 
+_We can see by the distribution that most customers who miss payments are in the the credit history category E. _
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/category%20E%20highest.png)
 
-🙌🏻  By cleanng and visualizing the data we have discovred the relationship between missed payments and credit history in the data refinery.
+🙌🏻 By cleanng and visualizing the data we have discovred the relationship between missed payments and credit history in the data refinery.
 
 ## Prediction
 
