@@ -1,6 +1,6 @@
 # IBM Payment Plan Prediction
 
-![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/dataset.png)
+![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/IBM%20Cloud%20Pak.png)
 
 From IBM's Cloud Pak site, I have used a sample dataset to address the following scenario: 
 
