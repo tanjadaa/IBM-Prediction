@@ -87,9 +87,13 @@ The 3 Feature Transformers which were applied are Sum, Round and Univariate Feat
 With the Pipeline Leaderboard, Pipeline 4 has a 94.3% accuracy rate and has been deemed the "Top Performer" by the blue star. 
 
 Pipeline 4 uses the combination of: 
+
    ▪️ XGB Classifier 
+   
    ▪️ Hyperparameter optimization (1st)
+   
    ▪️ Feature Engineering
+   
    ▪️ Hyperparameter optimization (2nd) 
    
 
