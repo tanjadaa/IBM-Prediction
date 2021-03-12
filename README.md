@@ -100,14 +100,37 @@ Pipeline 4 uses the combination of:
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/RM%20full.png)
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Pipeline%20Leadership.png)
 
+### Model Evaluation
+The Model evaluation shows the Model Accuracy which allows you to see the accuracy of your pipeline. 
 
+The higher the score, the better the model is at predicting 
+and distinguishing between customers who miss their payments and customers who don't. 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Model%20Evaluation.png)
+
+### Confusion Matrix
+The confusion matrix shows numbers and percentages of correct and incorrect classifications.
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Confusion%20Matrix.png)
 
-![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Precision%20Recall%20Curve.png)
+### Feature Importance
+Shows the relative importance of each feature in predicting the target, based on an averaging of nine different importance measures.
+
+This pipeline is more balanced as it uses two columns as the most important predictors: OVERDUE_BALANCE and CREDIT_HISTORY. 
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Feature%20Importance.png)
+
+### Precision Recall Curve
+
+The Precision vs. Recall Curve chart plots the proportion of outcomes predicted to be positive that are positive, also known as precision, on the vertical axis, against the proportion of positive outcomes that are correctly predicted, also known as recall, sensitivity, probability of detection or true positive rate (TPR), on the horizontal axis, as the threshold for positive classification is varied across the predicted probability range from 1 down to 0. When the threshold is set high, few false positives will occur and precision will be high, while recall will be low. As the threshold is decreased, recall will increase and precision will generally decrease. Although there is generally a trade off between precision and recall, the curve may not be strictly monotonically decreasing. The area under the Prevision vs. Recall curve is generally preferred to the area under the ROC curve as an evaluation statistic for binary classification when the proportions of positive and negative observed instances are highly imbalanced.
+
+![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Precision%20Recall%20Curve.png)
+
+
+## Conclusion
+
+As a conclusion, we see that utilizing the XGB Classifer along with both the 1st and the 2nd Hyperparameter optimization and Feature Engineering yields the highest precision rate of this particular dataset prediction.
+
+
 
 
 
