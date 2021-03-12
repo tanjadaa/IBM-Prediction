@@ -79,10 +79,24 @@ Further, throught each algorithm the data set goes through 'Enhancements' includ
   👉🏻 HYPERPARAMETER OPTIMIZATION
         
    ▪️ A Hyper-Parameter Optimization set refines the best performing model pipelines. AutoAI uses a novel hyper-parameter optimization algorithm optimized for costly function evaluations such as model training and scoring that are typical in machine learning. This approach enales fast convergence to a good solution despite long evaluation times of each iteration.
-      
+   
+## Results
+
+The 3 Feature Transformers which were applied are Sum, Round and Univariate Feature Selection.
+
+With the Pipeline Leaderboard, Pipeline 4 has a 94.3% accuracy rate and has been deemed the "Top Performer" by the blue star. 
+
+Pipeline 4 uses the combination of: 
+   ▪️ XGB Classifier 
+   ▪️ Hyperparameter optimization (1st)
+   ▪️ Feature Engineering
+   ▪️ Hyperparameter optimization (2nd) 
+   
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/RM%20full.png)
-![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/RM%20Pipeline%20leaderboard.png)
+![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Pipeline%20Leadership.png)
+
+
 
 
 
