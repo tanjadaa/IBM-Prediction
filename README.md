@@ -101,6 +101,14 @@ Pipeline 4 uses the combination of:
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Pipeline%20Leadership.png)
 
 
+![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Model%20Evaluation.png)
+
+![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Confusion%20Matrix.png)
+
+![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Precision%20Recall%20Curve.png)
+
+![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Feature%20Importance.png)
+
 
 
 
