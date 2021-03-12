@@ -82,6 +82,9 @@ Further, throught each algorithm the data set goes through 'Enhancements' includ
       
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/RM%20full.png)
+![image(https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/RM%20Pipeline%20leaderboard.png)
+
+
 
 
 
