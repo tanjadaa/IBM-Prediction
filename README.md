@@ -101,10 +101,10 @@ Pipeline 4 uses the combination of:
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Pipeline%20Leadership.png)
 
 ### Model Evaluation
-The Model evaluation shows the Model Accuracy which allows you to see the accuracy of your pipeline. 
+This Model evaluation shows the model accuracy which allows us to see the accuracy of the pipeline, in this pipeline 4.
 
-The higher the score, the better the model is at predicting 
-and distinguishing between customers who miss their payments and customers who don't. 
+The higher the score, the better the model is at predicting and distinguishing between customers who miss their payments and customers who don't.
+
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Model%20Evaluation.png)
 
 ### Confusion Matrix
@@ -113,9 +113,10 @@ The confusion matrix shows numbers and percentages of correct and incorrect clas
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Confusion%20Matrix.png)
 
 ### Feature Importance
-Shows the relative importance of each feature in predicting the target, based on an averaging of nine different importance measures.
 
-This pipeline is more balanced as it uses two columns as the most important predictors: OVERDUE_BALANCE and CREDIT_HISTORY. 
+This shows the relative importance of each feature in predicting the target, based on an averaging of nine different importance measures.
+
+This pipeline is more balanced as it uses two columns as the most important predictors: Overdue_Balance and Credit_History. 
 
 ![image](https://github.com/tanjadaa/IBM-Prediction/blob/main/Pictures/Feature%20Importance.png)
 
@@ -128,7 +129,7 @@ The Precision vs. Recall Curve chart plots the proportion of outcomes predicted 
 
 ## Conclusion
 
-As a conclusion, we see that utilizing the XGB Classifer along with both the 1st and the 2nd Hyperparameter optimization and Feature Engineering yields the highest precision rate of this particular dataset prediction.
+As a conclusion, we see that utilizing the XGB Classifer along with both the 1st and the 2nd Hyperparameter optimization and Feature Engineering yields the highest precision rate of 94.3% for particular dataset prediction.
 
 
 
